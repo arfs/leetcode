@@ -4,7 +4,7 @@
  */
 var isPalindrome = function(x) {
     const s = x.toString();
-    let leftIndex = 0, rightIndex = (x.length - 1);
+    let leftIndex = 0, rightIndex = (s.length - 1);
     
     while(leftIndex <= rightIndex) {
         if(s[leftIndex] !== s[rightIndex]) {
@@ -19,4 +19,4 @@ var isPalindrome = function(x) {
 }
 
 
-console.log(isPalindrome('-121'));
+console.log(isPalindrome(-121));
